@@ -26,14 +26,17 @@
     "node": ">=4"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "aws-sdk": "^2.176.0"
+  },
   "dependencies": {
     "async": "2.5.0",
-    "aws-sdk": "2.131.0",
     "joi": "11.3.4",
     "lodash": "4.17.4",
     "uuid": "3.1.0"
   },
   "devDependencies": {
+    "aws-sdk": "^2.176.0",
     "chai": "4.1.2",
     "coveralls": "3.0.0",
     "eslint": "^2.13.1",
